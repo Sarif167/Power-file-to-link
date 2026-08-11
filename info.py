@@ -20,7 +20,7 @@ API_HASH = environ.get('API_HASH', 'cc22b4a72ff510077ea7f4f5fc115779')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8188646598:AAH9NqfJHi6NmoGSBxCZEYgp9nqjh6cHVzI')
 
 # Admin Settings
-ADMINS = [int(x) for x in environ.get('ADMINS', '5977931010').split()]
+ADMINS = [int(x) for x in environ.get('ADMINS', '1249672673').split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'botmaster55')
 
 # =========================================================
@@ -40,10 +40,10 @@ LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003184409377'))
 # Feature Specific Logs
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003184409377'))
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003184409377'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003184409377"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003589639644"))
 
 # Auth Channels (Safe Parsing)
-auth_channel_str = environ.get("AUTH_CHANNEL", "-1002523462080")
+auth_channel_str = environ.get("AUTH_CHANNEL", "-1003589639644")
 AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str else []
 
 # =========================================================
