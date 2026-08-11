@@ -15,18 +15,19 @@ def is_enabled(value, default):
 # 🤖 BOT INFO & CREDENTIALS
 # =========================================================
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12000656'))
-API_HASH = environ.get('API_HASH', 'd927c13beaaf5110f2c071273')
-BOT_TOKEN = environ.get('BOT_TOKEN', '70917168:AAF8TzmnNYW721xIUUuseLU41xa5bRA')
+API_ID = int(environ.get('API_ID', '10458298'))
+API_HASH = environ.get('API_HASH', 'cc22b4a72ff510077ea7f4f5fc115779')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8188646598:AAH9NqfJHi6NmoGSBxCZEYgp9nqjh6cHVzI')
 
 # Admin Settings
 ADMINS = [int(x) for x in environ.get('ADMINS', '5977931010').split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'botmaster55')
 
 # =========================================================
 # 🗄️ DATABASE CONNECTION
 # =========================================================
-DB_URL = environ.get('DATABASE_URI', "mongodb+srv://teshsjsg1:axxxxtz@testing.kwuyhwka.mongodb.net/?appName=testing")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://wajsarif461_db_user:TwacJh76mwpHHpjw@cluster0.biueyst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+")
 DB_NAME = environ.get('DATABASE_NAME', "testing")
 
 # =========================================================
