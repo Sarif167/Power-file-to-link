@@ -131,5 +131,5 @@ else:
 
 # Default fallback if nothing works (Matches your provided koyeb link)
 if not URL or URL == "/":
-    URL = "https://forward-jolyn-vnnmbs-62200c9e.koyeb.app/"
+    URL = "https://wet-idalia-owajbhai-96338bb4.koyeb.app/"
     
